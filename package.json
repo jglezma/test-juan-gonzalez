@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jglezma/test-juan-gonzalez#readme",
   "devDependencies": {
     "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -33,6 +34,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "react-refresh": "^0.11.0",
+    "redux": "^4.1.2",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.64.4",
@@ -40,10 +42,15 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-polyfill": "^6.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.0.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
     "sass": "^1.44.0"
   }
 }

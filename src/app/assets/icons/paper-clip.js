@@ -1,0 +1,10 @@
+import React from "react";
+
+const PaperClipIcon = () => {
+  return (
+    <div>
+      <img style={{height:'20px', width:'20px'}} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAC80lEQVRoge3ZTahVVRjG8d9FQfNaSIM+xIGUEAYRBU2jAgVBHCgNahLZvX4khJGWfY4yRZ3rIGgmONaSgggaRNTERBQnGioYDSTqYmVdT4O9Dmt57v465+57zjH2A3vyrrXe9fxZ66x373Vo1apVq1aD60HsxxnMhOcMPsFDI/TVl17EH+gUPDN4eWTuamonbssMn8YLmAzPczgZ2m4bA5gVeDgnvkOE+LBk/AfiyuTlGYrW4Ap+w5IknkK8UyPPqdD3QNMG62gNrgYDX2IixLfrD4Jsy3VwtmGPlVqNy2Hyb7E8xKcwG+Lv95Hv3jDmZoMeK5WuxNdYFuLpSrzdZ877xN/JUFQEsc3gELA+jP2pAY+VqgOxd4C8E/gqjP94/jbLtVAQZEdzB7/jgfnZLFcRxLQIsWfA3PvEgrhlfjbL1QTE4ziGR3riKcSOhvzmqggiPWKrIJ7Ar6HvVBIfGkRRndgqQrxbkWMtroe+X4iVf48IsatR1z1qIYL+lxBLQzyFeL1R1z2qA7GvIkcKcVoLMZiKIF51F0EU1Yl0Jd6syJHWiVPiDzutE9sadd2jIoiNIsTuihwpxOdGAPGofIgluBbi71XkqAMx3ajrHq3ARXMhYF2In8OikhwpRFonuhCzFhgCjofJfnAnhDB5B5+WjB8LiCfDRDNYldO+OZj5pmB8L0T3dEohpvKHNqvDYcJDBe33yz7+O+Z+GzwtQqRH7NAhyO5aO3impE/3smxWtg3fkm21W8YEAm6EiSdL+kzgIP419472M2MAAX/KjsXFNfo+JjN7VPZN/VTSlkK81rDHWuq+iqyeR46RQ8CJYGLQajsWEPBSMHJeecHL09hAkJm/oP+LsPQtdkEvCvrR8/hHZuoj8QY9T4twRFyJrQvurk9Ni8fr99iEe5L2SdnfZd26cwuvDNljbW3AL2KN+AuX8DP+TuJX8OyIPNbWpOy+9kfx1rC7jb7DG2IBHJnK9n6elmGlDOi6rHi2atXqLtB/khVW+bDVPpAAAAAASUVORK5CYII=" />
+    </div>
+  );
+};
+export default PaperClipIcon;

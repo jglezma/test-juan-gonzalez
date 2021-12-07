@@ -5,3 +5,45 @@
   display: flex
   flex-direction: row
   justify-content: space-between
+  border-bottom: 1px solid $gray-200
+  cursor: pointer
+  -webkit-transition: background-color 1s linear
+  transition: background-color 1s linear
+  &:hover
+    transition: all 0.2s
+    background: $gray-500
+    font-size: 20px
+.container-blue
+  background: $blue-bg
+  padding: 20px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  border-bottom: 1px solid $gray-200
+  border-left: 5px solid $blue
+  cursor: pointer
+  -webkit-transition: background-color 1s linear
+  transition: background-color 1s linear
+  &:hover
+    transition: all 0.2s
+    background: $gray-500
+    font-size: 28px
+  .text-title
+    color: $blue
+    margin-top: 10px
+    -webkit-transition: font-size 1s ease
+    transition: font-size 1s ease
+    &:hover
+      font-size: 25px
+.text-preview
+  color: $gray-400
+  margin-top: 10px
+.text-title
+  font-weight: 900
+.text-hour
+  color: $gray-400
+.clip-container-preview
+  margin-top: 10px
+  margin-left: 30px
+.right-container
+  width: 50px

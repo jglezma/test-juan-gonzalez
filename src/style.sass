@@ -1,7 +1,11 @@
 @import './app/assets/sass/colors'
+@import './app/assets/sass/vars'
 
 p
   margin: 0
+  font-size: 12px
+  font-family: 'Helvetica'
+  color: $font
 body
   margin: 0
   font-family: 'Helvetica'
@@ -18,7 +22,31 @@ body
     display: flex
     flex-flow: row
     background: $gray
-    width: 70vw
     height: 85vh
     border-radius: 2px
     box-shadow: 0px 0px 10px gray
+@media screen and (max-width: $breakpoint-xs)
+  .main-layout
+    min-height: 85vh
+  #layout-container
+    width: 100vw
+    height: 100vh
+@media screen and (max-width: $breakpoint-sm)
+  .main-layout
+    min-height: 85vh
+  #layout-container
+    width: 100vw
+    height: 100vh
+@media screen and (min-width: $breakpoint-md)
+  .main-layout
+    min-height: 100vh
+  #layout-container
+    width: 100vw
+    height: 90vh
+@media screen and (min-width: $breakpoint-lg)
+  .main-layout
+    min-height: 100vh
+  #layout-container
+    width: 71vw
+    height: 80vh
+
